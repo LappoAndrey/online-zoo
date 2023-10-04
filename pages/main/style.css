@@ -1,0 +1,151 @@
+* {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../../assets/fonts/Roboto-Regular.ttf");
+}
+
+.rob114 {
+  font-family: Roboto;
+  font-size: 114px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 80%;
+  text-transform: uppercase;
+}
+
+.rob48 {
+  font-family: Roboto;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.rob36 {
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+}
+
+.rob24 {
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.rob16up {
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+  text-transform: uppercase;
+}
+.rob16 {
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.rob15 {
+  font-family: Roboto;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 120%;
+}
+body {
+  width: 1600px;
+}
+.header {
+  display: flex;
+  width: 1600px;
+  height: 80px;
+  max-height: 80px;
+  background-color: rgb(0, 0, 0);
+  /* justify-content: space-between; */
+}
+
+.h2text {
+  display: flex;
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 19.014px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.petRect {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-left: 220px;
+  margin-top: 14px;
+  width: 82px;
+  height: 52px;
+  flex-shrink: 0;
+  border-radius: 2px;
+  border: 1px solid #fff;
+}
+
+.navContainer {
+  display: flex;
+  flex-direction: row;
+  width: 490px;
+  margin-top: 20px;
+  margin-left: 63px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  align-items: center;
+}
+
+.ulNav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+li {
+  list-style: none; /* Убирает точки */
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+}
+
+a {
+  color: inherit; /* Наследует цвет от родительского элемента */
+  text-decoration: none; /* Убирает подчеркивание */
+  margin-right: 30px;
+}
+
+.bamboo {
+  display: flex;
+  position: absolute;
+  top: 24.64px;
+  left: 7.13px;
+}
